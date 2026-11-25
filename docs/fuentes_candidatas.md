@@ -15,6 +15,6 @@ Escoger **5**: al menos **3 académicas** y al menos **2 de 2025–2026**. Abrir
 | 7 | Dosovitskiy, A. et al. *An Image is Worth 16x16 Words (ViT).* ICLR. https://arxiv.org/abs/2010.11929 | 2021 | **Fundacional**: cómo se codifica una imagen en parches |
 | 8 | Liu, H. et al. *Visual Instruction Tuning (LLaVA).* NeurIPS. https://arxiv.org/abs/2304.08485 | 2023 | Arquitectura típica: codificador visual + proyección + LLM |
 | 9 | Rahmanzadehgervi, P. et al. *Vision Language Models Are Blind.* https://arxiv.org/abs/2407.06581 | 2024 | Fallos en tareas visuales simples (contar, cruces de líneas) |
-| 10 | Gemini Team, Google. *Gemini 2.5 technical report.* https://arxiv.org/abs/2507.06261 | 2025 | Documentación técnica del modelo que evaluamos (no es revisión por pares) |
+| 10 | Gemini Team, Google. *Gemini 2.5 technical report.* https://arxiv.org/abs/2507.06261 | 2025 | Documentación técnica de la familia Gemini (evaluamos Gemini 3.6 Flash; buscar su ficha oficial en ai.google.dev). No es revisión por pares |
 
 Para la tabla F1–F5 del cuaderno: en **Limitaciones** anotar cosas como "preprint", "solo inglés", "gráficos científicos, no de negocio", "informe del fabricante".

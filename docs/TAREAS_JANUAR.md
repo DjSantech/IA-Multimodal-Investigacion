@@ -16,8 +16,8 @@ Todo se entrega por **rama propia + Pull Request** (así queda evidencia de qui�
 - Rama: `januar/verificacion`
 
 ## Semana 3 · Clasificar los fallos del modelo
-- [ ] Cuando exista `data/etiquetas_fallos.csv` (lo crea `src/evaluar.py`), abrir cada imagen fallida y llenar la columna `tipo_fallo` con una de estas categorías:
-  `lectura_escala` · `confusion_categoria` · `distractor` · `ocr_digito` · `formato_numero` · `sin_numero` · `otro`
+- [ ] Abrir `data/etiquetas_fallos_estres.csv` (fallos de la exploración de estrés; la evaluación principal no tuvo fallos), abrir cada imagen fallida y llenar la columna `tipo_fallo` con una de estas categorías:
+  `proporcion_visual` (calcula la proporción con la altura dibujada, no con los valores) · `lectura_escala` · `confusion_categoria` · `distractor` · `ocr_digito` · `formato_numero` · `sin_numero` · `otro`
 - [ ] Añadir una `nota` corta cuando el fallo sea interesante (candidatos para la exposición).
 - [ ] Llenar tu fila de la bitácora (sección E) y tu **reflexión individual** (sección H).
 - [ ] Referencias finales en APA (sección H).

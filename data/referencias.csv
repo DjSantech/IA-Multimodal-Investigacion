@@ -1,131 +1,209 @@
 fase,familia,tipo,variante,archivo,pregunta,respuesta_ref,tolerancia,mismos_datos
-piloto,P01,barras,clara,data/imagenes/piloto/P01_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-piloto,P01,barras,escala,data/imagenes/piloto/P01_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-piloto,P01,barras,reordenada,data/imagenes/piloto/P01_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-piloto,P01,barras,distractor,data/imagenes/piloto/P01_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-piloto,P01,barras,datos_cambiados,data/imagenes/piloto/P01_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",38,3,False
-piloto,P02,barras,clara,data/imagenes/piloto/P02_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Armenia»?",94,3,True
-piloto,P02,barras,escala,data/imagenes/piloto/P02_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Armenia»?",94,3,True
-piloto,P02,barras,reordenada,data/imagenes/piloto/P02_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Armenia»?",94,3,True
-piloto,P02,barras,distractor,data/imagenes/piloto/P02_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Armenia»?",94,3,True
-piloto,P02,barras,datos_cambiados,data/imagenes/piloto/P02_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Armenia»?",78,3,False
-piloto,P03,barras,clara,data/imagenes/piloto/P03_clara.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",54,3,True
-piloto,P03,barras,escala,data/imagenes/piloto/P03_escala.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",54,3,True
-piloto,P03,barras,reordenada,data/imagenes/piloto/P03_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",54,3,True
-piloto,P03,barras,distractor,data/imagenes/piloto/P03_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",54,3,True
-piloto,P03,barras,datos_cambiados,data/imagenes/piloto/P03_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",74,3,False
-piloto,P04,barras,clara,data/imagenes/piloto/P04_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",85,3,True
-piloto,P04,barras,escala,data/imagenes/piloto/P04_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",85,3,True
-piloto,P04,barras,reordenada,data/imagenes/piloto/P04_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",85,3,True
-piloto,P04,barras,distractor,data/imagenes/piloto/P04_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",85,3,True
-piloto,P04,barras,datos_cambiados,data/imagenes/piloto/P04_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",72,3,False
-piloto,P05,tabla,clara,data/imagenes/piloto/P05_clara.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Feb»?",1542,0,True
-piloto,P05,tabla,escala,data/imagenes/piloto/P05_escala.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Feb»?",1542,0,True
-piloto,P05,tabla,reordenada,data/imagenes/piloto/P05_reordenada.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Feb»?",1542,0,True
-piloto,P05,tabla,distractor,data/imagenes/piloto/P05_distractor.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Feb»?",1542,0,True
-piloto,P05,tabla,datos_cambiados,data/imagenes/piloto/P05_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Feb»?",2319,0,False
-piloto,P06,tabla,clara,data/imagenes/piloto/P06_clara.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Vie»?",5240,0,True
-piloto,P06,tabla,escala,data/imagenes/piloto/P06_escala.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Vie»?",5240,0,True
-piloto,P06,tabla,reordenada,data/imagenes/piloto/P06_reordenada.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Vie»?",5240,0,True
-piloto,P06,tabla,distractor,data/imagenes/piloto/P06_distractor.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Vie»?",5240,0,True
-piloto,P06,tabla,datos_cambiados,data/imagenes/piloto/P06_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Vie»?",4478,0,False
-final,F01,barras,clara,data/imagenes/final/F01_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Mango»?",31,3,True
-final,F01,barras,escala,data/imagenes/final/F01_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Mango»?",31,3,True
-final,F01,barras,reordenada,data/imagenes/final/F01_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Mango»?",31,3,True
-final,F01,barras,distractor,data/imagenes/final/F01_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Mango»?",31,3,True
-final,F01,barras,datos_cambiados,data/imagenes/final/F01_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Mango»?",11,3,False
-final,F02,barras,clara,data/imagenes/final/F02_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Ibagué»?",48,3,True
-final,F02,barras,escala,data/imagenes/final/F02_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Ibagué»?",48,3,True
-final,F02,barras,reordenada,data/imagenes/final/F02_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Ibagué»?",48,3,True
-final,F02,barras,distractor,data/imagenes/final/F02_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Ibagué»?",48,3,True
-final,F02,barras,datos_cambiados,data/imagenes/final/F02_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Ibagué»?",30,3,False
-final,F03,barras,clara,data/imagenes/final/F03_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",87,3,True
-final,F03,barras,escala,data/imagenes/final/F03_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",87,3,True
-final,F03,barras,reordenada,data/imagenes/final/F03_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",87,3,True
-final,F03,barras,distractor,data/imagenes/final/F03_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",87,3,True
-final,F03,barras,datos_cambiados,data/imagenes/final/F03_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",68,3,False
-final,F04,barras,clara,data/imagenes/final/F04_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Atletismo»?",72,3,True
-final,F04,barras,escala,data/imagenes/final/F04_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Atletismo»?",72,3,True
-final,F04,barras,reordenada,data/imagenes/final/F04_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Atletismo»?",72,3,True
-final,F04,barras,distractor,data/imagenes/final/F04_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Atletismo»?",72,3,True
-final,F04,barras,datos_cambiados,data/imagenes/final/F04_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Atletismo»?",52,3,False
-final,F05,barras,clara,data/imagenes/final/F05_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",37,3,True
-final,F05,barras,escala,data/imagenes/final/F05_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",37,3,True
-final,F05,barras,reordenada,data/imagenes/final/F05_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",37,3,True
-final,F05,barras,distractor,data/imagenes/final/F05_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",37,3,True
-final,F05,barras,datos_cambiados,data/imagenes/final/F05_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",50,3,False
-final,F06,barras,clara,data/imagenes/final/F06_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Economía»?",83,3,True
-final,F06,barras,escala,data/imagenes/final/F06_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Economía»?",83,3,True
-final,F06,barras,reordenada,data/imagenes/final/F06_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Economía»?",83,3,True
-final,F06,barras,distractor,data/imagenes/final/F06_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Economía»?",83,3,True
-final,F06,barras,datos_cambiados,data/imagenes/final/F06_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Economía»?",96,3,False
-final,F07,barras,clara,data/imagenes/final/F07_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-final,F07,barras,escala,data/imagenes/final/F07_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-final,F07,barras,reordenada,data/imagenes/final/F07_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-final,F07,barras,distractor,data/imagenes/final/F07_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",57,3,True
-final,F07,barras,datos_cambiados,data/imagenes/final/F07_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",44,3,False
-final,F08,barras,clara,data/imagenes/final/F08_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",68,3,True
-final,F08,barras,escala,data/imagenes/final/F08_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",68,3,True
-final,F08,barras,reordenada,data/imagenes/final/F08_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",68,3,True
-final,F08,barras,distractor,data/imagenes/final/F08_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",68,3,True
-final,F08,barras,datos_cambiados,data/imagenes/final/F08_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",55,3,False
-final,F09,barras,clara,data/imagenes/final/F09_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Go»?",94,3,True
-final,F09,barras,escala,data/imagenes/final/F09_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Go»?",94,3,True
-final,F09,barras,reordenada,data/imagenes/final/F09_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Go»?",94,3,True
-final,F09,barras,distractor,data/imagenes/final/F09_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Go»?",94,3,True
-final,F09,barras,datos_cambiados,data/imagenes/final/F09_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Go»?",78,3,False
-final,F10,barras,clara,data/imagenes/final/F10_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Tenis»?",74,3,True
-final,F10,barras,escala,data/imagenes/final/F10_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Tenis»?",74,3,True
-final,F10,barras,reordenada,data/imagenes/final/F10_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Tenis»?",74,3,True
-final,F10,barras,distractor,data/imagenes/final/F10_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Tenis»?",74,3,True
-final,F10,barras,datos_cambiados,data/imagenes/final/F10_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Tenis»?",94,3,False
-final,F11,barras,clara,data/imagenes/final/F11_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Plancha»?",32,3,True
-final,F11,barras,escala,data/imagenes/final/F11_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Plancha»?",32,3,True
-final,F11,barras,reordenada,data/imagenes/final/F11_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Plancha»?",32,3,True
-final,F11,barras,distractor,data/imagenes/final/F11_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Plancha»?",32,3,True
-final,F11,barras,datos_cambiados,data/imagenes/final/F11_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Plancha»?",12,3,False
-final,F12,barras,clara,data/imagenes/final/F12_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Artes»?",36,3,True
-final,F12,barras,escala,data/imagenes/final/F12_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Artes»?",36,3,True
-final,F12,barras,reordenada,data/imagenes/final/F12_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Artes»?",36,3,True
-final,F12,barras,distractor,data/imagenes/final/F12_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Artes»?",36,3,True
-final,F12,barras,datos_cambiados,data/imagenes/final/F12_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Artes»?",19,3,False
-final,F13,tabla,clara,data/imagenes/final/F13_clara.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",1382,0,True
-final,F13,tabla,escala,data/imagenes/final/F13_escala.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",1382,0,True
-final,F13,tabla,reordenada,data/imagenes/final/F13_reordenada.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",1382,0,True
-final,F13,tabla,distractor,data/imagenes/final/F13_distractor.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",1382,0,True
-final,F13,tabla,datos_cambiados,data/imagenes/final/F13_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",2208,0,False
-final,F14,tabla,clara,data/imagenes/final/F14_clara.png,"En la tabla, ¿qué valor tiene «Ruta 5» en la columna «Vie»?",6630,0,True
-final,F14,tabla,escala,data/imagenes/final/F14_escala.png,"En la tabla, ¿qué valor tiene «Ruta 5» en la columna «Vie»?",6630,0,True
-final,F14,tabla,reordenada,data/imagenes/final/F14_reordenada.png,"En la tabla, ¿qué valor tiene «Ruta 5» en la columna «Vie»?",6630,0,True
-final,F14,tabla,distractor,data/imagenes/final/F14_distractor.png,"En la tabla, ¿qué valor tiene «Ruta 5» en la columna «Vie»?",6630,0,True
-final,F14,tabla,datos_cambiados,data/imagenes/final/F14_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Ruta 5» en la columna «Vie»?",5910,0,False
-final,F15,tabla,clara,data/imagenes/final/F15_clara.png,"En la tabla, ¿qué valor tiene «Planta F» en la columna «T3»?",4557,0,True
-final,F15,tabla,escala,data/imagenes/final/F15_escala.png,"En la tabla, ¿qué valor tiene «Planta F» en la columna «T3»?",4557,0,True
-final,F15,tabla,reordenada,data/imagenes/final/F15_reordenada.png,"En la tabla, ¿qué valor tiene «Planta F» en la columna «T3»?",4557,0,True
-final,F15,tabla,distractor,data/imagenes/final/F15_distractor.png,"En la tabla, ¿qué valor tiene «Planta F» en la columna «T3»?",4557,0,True
-final,F15,tabla,datos_cambiados,data/imagenes/final/F15_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Planta F» en la columna «T3»?",3859,0,False
-final,F16,tabla,clara,data/imagenes/final/F16_clara.png,"En la tabla, ¿qué valor tiene «Física» en la columna «2026»?",5678,0,True
-final,F16,tabla,escala,data/imagenes/final/F16_escala.png,"En la tabla, ¿qué valor tiene «Física» en la columna «2026»?",5678,0,True
-final,F16,tabla,reordenada,data/imagenes/final/F16_reordenada.png,"En la tabla, ¿qué valor tiene «Física» en la columna «2026»?",5678,0,True
-final,F16,tabla,distractor,data/imagenes/final/F16_distractor.png,"En la tabla, ¿qué valor tiene «Física» en la columna «2026»?",5678,0,True
-final,F16,tabla,datos_cambiados,data/imagenes/final/F16_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Física» en la columna «2026»?",5211,0,False
-final,F17,tabla,clara,data/imagenes/final/F17_clara.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",7245,0,True
-final,F17,tabla,escala,data/imagenes/final/F17_escala.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",7245,0,True
-final,F17,tabla,reordenada,data/imagenes/final/F17_reordenada.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",7245,0,True
-final,F17,tabla,distractor,data/imagenes/final/F17_distractor.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",7245,0,True
-final,F17,tabla,datos_cambiados,data/imagenes/final/F17_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Norte» en la columna «Feb»?",6578,0,False
-final,F18,tabla,clara,data/imagenes/final/F18_clara.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Lun»?",6112,0,True
-final,F18,tabla,escala,data/imagenes/final/F18_escala.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Lun»?",6112,0,True
-final,F18,tabla,reordenada,data/imagenes/final/F18_reordenada.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Lun»?",6112,0,True
-final,F18,tabla,distractor,data/imagenes/final/F18_distractor.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Lun»?",6112,0,True
-final,F18,tabla,datos_cambiados,data/imagenes/final/F18_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Lun»?",6802,0,False
-final,F19,tabla,clara,data/imagenes/final/F19_clara.png,"En la tabla, ¿qué valor tiene «Planta D» en la columna «T2»?",5319,0,True
-final,F19,tabla,escala,data/imagenes/final/F19_escala.png,"En la tabla, ¿qué valor tiene «Planta D» en la columna «T2»?",5319,0,True
-final,F19,tabla,reordenada,data/imagenes/final/F19_reordenada.png,"En la tabla, ¿qué valor tiene «Planta D» en la columna «T2»?",5319,0,True
-final,F19,tabla,distractor,data/imagenes/final/F19_distractor.png,"En la tabla, ¿qué valor tiene «Planta D» en la columna «T2»?",5319,0,True
-final,F19,tabla,datos_cambiados,data/imagenes/final/F19_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Planta D» en la columna «T2»?",5716,0,False
-final,F20,tabla,clara,data/imagenes/final/F20_clara.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",6769,0,True
-final,F20,tabla,escala,data/imagenes/final/F20_escala.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",6769,0,True
-final,F20,tabla,reordenada,data/imagenes/final/F20_reordenada.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",6769,0,True
-final,F20,tabla,distractor,data/imagenes/final/F20_distractor.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",6769,0,True
-final,F20,tabla,datos_cambiados,data/imagenes/final/F20_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",7596,0,False
+piloto,P01,barras,clara,data/imagenes/piloto/P01_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Papaya»?",67.0,3.0,True
+piloto,P01,barras,escala,data/imagenes/piloto/P01_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Papaya»?",67.0,3.0,True
+piloto,P01,barras,reordenada,data/imagenes/piloto/P01_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Papaya»?",67.0,3.0,True
+piloto,P01,barras,distractor,data/imagenes/piloto/P01_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Papaya»?",67.0,3.0,True
+piloto,P01,barras,baja_resolucion,data/imagenes/piloto/P01_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Papaya»?",67.0,3.0,True
+piloto,P01,barras,datos_cambiados,data/imagenes/piloto/P01_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Papaya»?",84.0,3.0,False
+piloto,P02,barras,clara,data/imagenes/piloto/P02_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",52.0,3.0,True
+piloto,P02,barras,escala,data/imagenes/piloto/P02_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",52.0,3.0,True
+piloto,P02,barras,reordenada,data/imagenes/piloto/P02_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",52.0,3.0,True
+piloto,P02,barras,distractor,data/imagenes/piloto/P02_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",52.0,3.0,True
+piloto,P02,barras,baja_resolucion,data/imagenes/piloto/P02_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",52.0,3.0,True
+piloto,P02,barras,datos_cambiados,data/imagenes/piloto/P02_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",65.0,3.0,False
+piloto,P03,barras,clara,data/imagenes/piloto/P03_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",62.0,3.0,True
+piloto,P03,barras,escala,data/imagenes/piloto/P03_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",62.0,3.0,True
+piloto,P03,barras,reordenada,data/imagenes/piloto/P03_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",62.0,3.0,True
+piloto,P03,barras,distractor,data/imagenes/piloto/P03_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",62.0,3.0,True
+piloto,P03,barras,baja_resolucion,data/imagenes/piloto/P03_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",62.0,3.0,True
+piloto,P03,barras,datos_cambiados,data/imagenes/piloto/P03_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",43.0,3.0,False
+piloto,P04,barras,clara,data/imagenes/piloto/P04_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Voleibol»?",42.0,3.0,True
+piloto,P04,barras,escala,data/imagenes/piloto/P04_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Voleibol»?",42.0,3.0,True
+piloto,P04,barras,reordenada,data/imagenes/piloto/P04_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Voleibol»?",42.0,3.0,True
+piloto,P04,barras,distractor,data/imagenes/piloto/P04_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Voleibol»?",42.0,3.0,True
+piloto,P04,barras,baja_resolucion,data/imagenes/piloto/P04_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Voleibol»?",42.0,3.0,True
+piloto,P04,barras,datos_cambiados,data/imagenes/piloto/P04_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Voleibol»?",62.0,3.0,False
+piloto,P05,tabla,clara,data/imagenes/piloto/P05_clara.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Mar»?",7738.0,0.0,True
+piloto,P05,tabla,escala,data/imagenes/piloto/P05_escala.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Mar»?",7738.0,0.0,True
+piloto,P05,tabla,reordenada,data/imagenes/piloto/P05_reordenada.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Mar»?",7738.0,0.0,True
+piloto,P05,tabla,distractor,data/imagenes/piloto/P05_distractor.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Mar»?",7738.0,0.0,True
+piloto,P05,tabla,baja_resolucion,data/imagenes/piloto/P05_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Mar»?",7738.0,0.0,True
+piloto,P05,tabla,datos_cambiados,data/imagenes/piloto/P05_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Sur» en la columna «Mar»?",6838.0,0.0,False
+piloto,P06,tabla,clara,data/imagenes/piloto/P06_clara.png,"En la tabla, ¿qué valor tiene «Ruta 8» en la columna «Mar»?",2138.0,0.0,True
+piloto,P06,tabla,escala,data/imagenes/piloto/P06_escala.png,"En la tabla, ¿qué valor tiene «Ruta 8» en la columna «Mar»?",2138.0,0.0,True
+piloto,P06,tabla,reordenada,data/imagenes/piloto/P06_reordenada.png,"En la tabla, ¿qué valor tiene «Ruta 8» en la columna «Mar»?",2138.0,0.0,True
+piloto,P06,tabla,distractor,data/imagenes/piloto/P06_distractor.png,"En la tabla, ¿qué valor tiene «Ruta 8» en la columna «Mar»?",2138.0,0.0,True
+piloto,P06,tabla,baja_resolucion,data/imagenes/piloto/P06_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Ruta 8» en la columna «Mar»?",2138.0,0.0,True
+piloto,P06,tabla,datos_cambiados,data/imagenes/piloto/P06_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Ruta 8» en la columna «Mar»?",1309.0,0.0,False
+final,F01,barras,clara,data/imagenes/final/F01_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Guayaba»?",89.0,3.0,True
+final,F01,barras,escala,data/imagenes/final/F01_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Guayaba»?",89.0,3.0,True
+final,F01,barras,reordenada,data/imagenes/final/F01_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Guayaba»?",89.0,3.0,True
+final,F01,barras,distractor,data/imagenes/final/F01_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Guayaba»?",89.0,3.0,True
+final,F01,barras,baja_resolucion,data/imagenes/final/F01_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Guayaba»?",89.0,3.0,True
+final,F01,barras,datos_cambiados,data/imagenes/final/F01_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Guayaba»?",69.0,3.0,False
+final,F02,barras,clara,data/imagenes/final/F02_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",66.0,3.0,True
+final,F02,barras,escala,data/imagenes/final/F02_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",66.0,3.0,True
+final,F02,barras,reordenada,data/imagenes/final/F02_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",66.0,3.0,True
+final,F02,barras,distractor,data/imagenes/final/F02_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",66.0,3.0,True
+final,F02,barras,baja_resolucion,data/imagenes/final/F02_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",66.0,3.0,True
+final,F02,barras,datos_cambiados,data/imagenes/final/F02_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Bogotá»?",82.0,3.0,False
+final,F03,barras,clara,data/imagenes/final/F03_clara.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",76.0,3.0,True
+final,F03,barras,escala,data/imagenes/final/F03_escala.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",76.0,3.0,True
+final,F03,barras,reordenada,data/imagenes/final/F03_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",76.0,3.0,True
+final,F03,barras,distractor,data/imagenes/final/F03_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",76.0,3.0,True
+final,F03,barras,baja_resolucion,data/imagenes/final/F03_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",76.0,3.0,True
+final,F03,barras,datos_cambiados,data/imagenes/final/F03_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «C++»?",64.0,3.0,False
+final,F04,barras,clara,data/imagenes/final/F04_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Judo»?",68.0,3.0,True
+final,F04,barras,escala,data/imagenes/final/F04_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Judo»?",68.0,3.0,True
+final,F04,barras,reordenada,data/imagenes/final/F04_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Judo»?",68.0,3.0,True
+final,F04,barras,distractor,data/imagenes/final/F04_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Judo»?",68.0,3.0,True
+final,F04,barras,baja_resolucion,data/imagenes/final/F04_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Judo»?",68.0,3.0,True
+final,F04,barras,datos_cambiados,data/imagenes/final/F04_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Judo»?",51.0,3.0,False
+final,F05,barras,clara,data/imagenes/final/F05_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Televisor»?",91.0,3.0,True
+final,F05,barras,escala,data/imagenes/final/F05_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Televisor»?",91.0,3.0,True
+final,F05,barras,reordenada,data/imagenes/final/F05_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Televisor»?",91.0,3.0,True
+final,F05,barras,distractor,data/imagenes/final/F05_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Televisor»?",91.0,3.0,True
+final,F05,barras,baja_resolucion,data/imagenes/final/F05_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Televisor»?",91.0,3.0,True
+final,F05,barras,datos_cambiados,data/imagenes/final/F05_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Televisor»?",77.0,3.0,False
+final,F06,barras,clara,data/imagenes/final/F06_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Ingeniería»?",49.0,3.0,True
+final,F06,barras,escala,data/imagenes/final/F06_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Ingeniería»?",49.0,3.0,True
+final,F06,barras,reordenada,data/imagenes/final/F06_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Ingeniería»?",49.0,3.0,True
+final,F06,barras,distractor,data/imagenes/final/F06_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Ingeniería»?",49.0,3.0,True
+final,F06,barras,baja_resolucion,data/imagenes/final/F06_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Ingeniería»?",49.0,3.0,True
+final,F06,barras,datos_cambiados,data/imagenes/final/F06_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Ingeniería»?",65.0,3.0,False
+final,F07,barras,clara,data/imagenes/final/F07_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",51.0,3.0,True
+final,F07,barras,escala,data/imagenes/final/F07_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",51.0,3.0,True
+final,F07,barras,reordenada,data/imagenes/final/F07_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",51.0,3.0,True
+final,F07,barras,distractor,data/imagenes/final/F07_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",51.0,3.0,True
+final,F07,barras,baja_resolucion,data/imagenes/final/F07_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",51.0,3.0,True
+final,F07,barras,datos_cambiados,data/imagenes/final/F07_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Lulo»?",36.0,3.0,False
+final,F08,barras,clara,data/imagenes/final/F08_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",89.0,3.0,True
+final,F08,barras,escala,data/imagenes/final/F08_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",89.0,3.0,True
+final,F08,barras,reordenada,data/imagenes/final/F08_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",89.0,3.0,True
+final,F08,barras,distractor,data/imagenes/final/F08_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",89.0,3.0,True
+final,F08,barras,baja_resolucion,data/imagenes/final/F08_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",89.0,3.0,True
+final,F08,barras,datos_cambiados,data/imagenes/final/F08_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",77.0,3.0,False
+final,F09,barras,clara,data/imagenes/final/F09_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",43.0,3.0,True
+final,F09,barras,escala,data/imagenes/final/F09_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",43.0,3.0,True
+final,F09,barras,reordenada,data/imagenes/final/F09_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",43.0,3.0,True
+final,F09,barras,distractor,data/imagenes/final/F09_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",43.0,3.0,True
+final,F09,barras,baja_resolucion,data/imagenes/final/F09_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",43.0,3.0,True
+final,F09,barras,datos_cambiados,data/imagenes/final/F09_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Python»?",25.0,3.0,False
+final,F10,barras,clara,data/imagenes/final/F10_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Fútbol»?",66.0,3.0,True
+final,F10,barras,escala,data/imagenes/final/F10_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Fútbol»?",66.0,3.0,True
+final,F10,barras,reordenada,data/imagenes/final/F10_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Fútbol»?",66.0,3.0,True
+final,F10,barras,distractor,data/imagenes/final/F10_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Fútbol»?",66.0,3.0,True
+final,F10,barras,baja_resolucion,data/imagenes/final/F10_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Fútbol»?",66.0,3.0,True
+final,F10,barras,datos_cambiados,data/imagenes/final/F10_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Fútbol»?",86.0,3.0,False
+final,F11,barras,clara,data/imagenes/final/F11_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",66.0,3.0,True
+final,F11,barras,escala,data/imagenes/final/F11_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",66.0,3.0,True
+final,F11,barras,reordenada,data/imagenes/final/F11_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",66.0,3.0,True
+final,F11,barras,distractor,data/imagenes/final/F11_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",66.0,3.0,True
+final,F11,barras,baja_resolucion,data/imagenes/final/F11_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",66.0,3.0,True
+final,F11,barras,datos_cambiados,data/imagenes/final/F11_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Ducha»?",49.0,3.0,False
+final,F12,barras,clara,data/imagenes/final/F12_clara.png,"En el gráfico, ¿qué valor tiene la categoría «Idiomas»?",76.0,3.0,True
+final,F12,barras,escala,data/imagenes/final/F12_escala.png,"En el gráfico, ¿qué valor tiene la categoría «Idiomas»?",76.0,3.0,True
+final,F12,barras,reordenada,data/imagenes/final/F12_reordenada.png,"En el gráfico, ¿qué valor tiene la categoría «Idiomas»?",76.0,3.0,True
+final,F12,barras,distractor,data/imagenes/final/F12_distractor.png,"En el gráfico, ¿qué valor tiene la categoría «Idiomas»?",76.0,3.0,True
+final,F12,barras,baja_resolucion,data/imagenes/final/F12_baja_resolucion.png,"En el gráfico, ¿qué valor tiene la categoría «Idiomas»?",76.0,3.0,True
+final,F12,barras,datos_cambiados,data/imagenes/final/F12_datos_cambiados.png,"En el gráfico, ¿qué valor tiene la categoría «Idiomas»?",94.0,3.0,False
+final,F13,tabla,clara,data/imagenes/final/F13_clara.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Feb»?",5808.0,0.0,True
+final,F13,tabla,escala,data/imagenes/final/F13_escala.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Feb»?",5808.0,0.0,True
+final,F13,tabla,reordenada,data/imagenes/final/F13_reordenada.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Feb»?",5808.0,0.0,True
+final,F13,tabla,distractor,data/imagenes/final/F13_distractor.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Feb»?",5808.0,0.0,True
+final,F13,tabla,baja_resolucion,data/imagenes/final/F13_baja_resolucion.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Feb»?",5808.0,0.0,True
+final,F13,tabla,datos_cambiados,data/imagenes/final/F13_datos_cambiados.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Feb»?",6680.0,0.0,False
+final,F14,tabla,clara,data/imagenes/final/F14_clara.png,"En la tabla, ¿qué valor tiene «Ruta 6» en la columna «Mar»?",2566.0,0.0,True
+final,F14,tabla,escala,data/imagenes/final/F14_escala.png,"En la tabla, ¿qué valor tiene «Ruta 6» en la columna «Mar»?",2566.0,0.0,True
+final,F14,tabla,reordenada,data/imagenes/final/F14_reordenada.png,"En la tabla, ¿qué valor tiene «Ruta 6» en la columna «Mar»?",2566.0,0.0,True
+final,F14,tabla,distractor,data/imagenes/final/F14_distractor.png,"En la tabla, ¿qué valor tiene «Ruta 6» en la columna «Mar»?",2566.0,0.0,True
+final,F14,tabla,baja_resolucion,data/imagenes/final/F14_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Ruta 6» en la columna «Mar»?",2566.0,0.0,True
+final,F14,tabla,datos_cambiados,data/imagenes/final/F14_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Ruta 6» en la columna «Mar»?",3191.0,0.0,False
+final,F15,tabla,clara,data/imagenes/final/F15_clara.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",9559.0,0.0,True
+final,F15,tabla,escala,data/imagenes/final/F15_escala.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",9559.0,0.0,True
+final,F15,tabla,reordenada,data/imagenes/final/F15_reordenada.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",9559.0,0.0,True
+final,F15,tabla,distractor,data/imagenes/final/F15_distractor.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",9559.0,0.0,True
+final,F15,tabla,baja_resolucion,data/imagenes/final/F15_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",9559.0,0.0,True
+final,F15,tabla,datos_cambiados,data/imagenes/final/F15_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",8733.0,0.0,False
+final,F16,tabla,clara,data/imagenes/final/F16_clara.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",3932.0,0.0,True
+final,F16,tabla,escala,data/imagenes/final/F16_escala.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",3932.0,0.0,True
+final,F16,tabla,reordenada,data/imagenes/final/F16_reordenada.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",3932.0,0.0,True
+final,F16,tabla,distractor,data/imagenes/final/F16_distractor.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",3932.0,0.0,True
+final,F16,tabla,baja_resolucion,data/imagenes/final/F16_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",3932.0,0.0,True
+final,F16,tabla,datos_cambiados,data/imagenes/final/F16_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2024»?",3150.0,0.0,False
+final,F17,tabla,clara,data/imagenes/final/F17_clara.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",9102.0,0.0,True
+final,F17,tabla,escala,data/imagenes/final/F17_escala.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",9102.0,0.0,True
+final,F17,tabla,reordenada,data/imagenes/final/F17_reordenada.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",9102.0,0.0,True
+final,F17,tabla,distractor,data/imagenes/final/F17_distractor.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",9102.0,0.0,True
+final,F17,tabla,baja_resolucion,data/imagenes/final/F17_baja_resolucion.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",9102.0,0.0,True
+final,F17,tabla,datos_cambiados,data/imagenes/final/F17_datos_cambiados.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",9809.0,0.0,False
+final,F18,tabla,clara,data/imagenes/final/F18_clara.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Mar»?",9947.0,0.0,True
+final,F18,tabla,escala,data/imagenes/final/F18_escala.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Mar»?",9947.0,0.0,True
+final,F18,tabla,reordenada,data/imagenes/final/F18_reordenada.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Mar»?",9947.0,0.0,True
+final,F18,tabla,distractor,data/imagenes/final/F18_distractor.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Mar»?",9947.0,0.0,True
+final,F18,tabla,baja_resolucion,data/imagenes/final/F18_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Mar»?",9947.0,0.0,True
+final,F18,tabla,datos_cambiados,data/imagenes/final/F18_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Ruta 4» en la columna «Mar»?",9575.0,0.0,False
+final,F19,tabla,clara,data/imagenes/final/F19_clara.png,"En la tabla, ¿qué valor tiene «Planta H» en la columna «T2»?",8910.0,0.0,True
+final,F19,tabla,escala,data/imagenes/final/F19_escala.png,"En la tabla, ¿qué valor tiene «Planta H» en la columna «T2»?",8910.0,0.0,True
+final,F19,tabla,reordenada,data/imagenes/final/F19_reordenada.png,"En la tabla, ¿qué valor tiene «Planta H» en la columna «T2»?",8910.0,0.0,True
+final,F19,tabla,distractor,data/imagenes/final/F19_distractor.png,"En la tabla, ¿qué valor tiene «Planta H» en la columna «T2»?",8910.0,0.0,True
+final,F19,tabla,baja_resolucion,data/imagenes/final/F19_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Planta H» en la columna «T2»?",8910.0,0.0,True
+final,F19,tabla,datos_cambiados,data/imagenes/final/F19_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Planta H» en la columna «T2»?",8043.0,0.0,False
+final,F20,tabla,clara,data/imagenes/final/F20_clara.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2025»?",9445.0,0.0,True
+final,F20,tabla,escala,data/imagenes/final/F20_escala.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2025»?",9445.0,0.0,True
+final,F20,tabla,reordenada,data/imagenes/final/F20_reordenada.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2025»?",9445.0,0.0,True
+final,F20,tabla,distractor,data/imagenes/final/F20_distractor.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2025»?",9445.0,0.0,True
+final,F20,tabla,baja_resolucion,data/imagenes/final/F20_baja_resolucion.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2025»?",9445.0,0.0,True
+final,F20,tabla,datos_cambiados,data/imagenes/final/F20_datos_cambiados.png,"En la tabla, ¿qué valor tiene «Química» en la columna «2025»?",8591.0,0.0,False
+estres,E01,barras,proporcion_clara,data/imagenes/estres/E01_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Uva» que el de «Mango»?",2.07,0.1,False
+estres,E01,barras,proporcion_truncada,data/imagenes/estres/E01_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Uva» que el de «Mango»?",2.07,0.1,False
+estres,E01,barras,res_40,data/imagenes/estres/E01_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Uva»?",85.0,3.0,False
+estres,E01,barras,res_30,data/imagenes/estres/E01_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Uva»?",85.0,3.0,False
+estres,E02,barras,proporcion_clara,data/imagenes/estres/E02_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Medellín» que el de «Armenia»?",1.53,0.1,False
+estres,E02,barras,proporcion_truncada,data/imagenes/estres/E02_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Medellín» que el de «Armenia»?",1.53,0.1,False
+estres,E02,barras,res_40,data/imagenes/estres/E02_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Medellín»?",84.0,3.0,False
+estres,E02,barras,res_30,data/imagenes/estres/E02_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Medellín»?",84.0,3.0,False
+estres,E03,barras,proporcion_clara,data/imagenes/estres/E03_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Java» que el de «JavaScript»?",1.86,0.1,False
+estres,E03,barras,proporcion_truncada,data/imagenes/estres/E03_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Java» que el de «JavaScript»?",1.86,0.1,False
+estres,E03,barras,res_40,data/imagenes/estres/E03_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Java»?",65.0,3.0,False
+estres,E03,barras,res_30,data/imagenes/estres/E03_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Java»?",65.0,3.0,False
+estres,E04,barras,proporcion_clara,data/imagenes/estres/E04_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Ciclismo» que el de «Voleibol»?",1.36,0.1,False
+estres,E04,barras,proporcion_truncada,data/imagenes/estres/E04_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Ciclismo» que el de «Voleibol»?",1.36,0.1,False
+estres,E04,barras,res_40,data/imagenes/estres/E04_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",49.0,3.0,False
+estres,E04,barras,res_30,data/imagenes/estres/E04_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",49.0,3.0,False
+estres,E05,barras,proporcion_clara,data/imagenes/estres/E05_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Secador» que el de «Ducha»?",1.97,0.1,False
+estres,E05,barras,proporcion_truncada,data/imagenes/estres/E05_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Secador» que el de «Ducha»?",1.97,0.1,False
+estres,E05,barras,res_40,data/imagenes/estres/E05_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Secador»?",73.0,3.0,False
+estres,E05,barras,res_30,data/imagenes/estres/E05_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Secador»?",73.0,3.0,False
+estres,E06,barras,proporcion_clara,data/imagenes/estres/E06_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Derecho» que el de «Música»?",1.25,0.1,False
+estres,E06,barras,proporcion_truncada,data/imagenes/estres/E06_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Derecho» que el de «Música»?",1.25,0.1,False
+estres,E06,barras,res_40,data/imagenes/estres/E06_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Derecho»?",84.0,3.0,False
+estres,E06,barras,res_30,data/imagenes/estres/E06_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Derecho»?",84.0,3.0,False
+estres,E07,barras,proporcion_clara,data/imagenes/estres/E07_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Fresa» que el de «Papaya»?",2.19,0.1,False
+estres,E07,barras,proporcion_truncada,data/imagenes/estres/E07_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Fresa» que el de «Papaya»?",2.19,0.1,False
+estres,E07,barras,res_40,data/imagenes/estres/E07_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Fresa»?",81.0,3.0,False
+estres,E07,barras,res_30,data/imagenes/estres/E07_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Fresa»?",81.0,3.0,False
+estres,E08,barras,proporcion_clara,data/imagenes/estres/E08_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Cali» que el de «Manizales»?",2.1,0.1,False
+estres,E08,barras,proporcion_truncada,data/imagenes/estres/E08_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Cali» que el de «Manizales»?",2.1,0.1,False
+estres,E08,barras,res_40,data/imagenes/estres/E08_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",61.0,3.0,False
+estres,E08,barras,res_30,data/imagenes/estres/E08_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Cali»?",61.0,3.0,False
+estres,E09,barras,proporcion_clara,data/imagenes/estres/E09_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Swift» que el de «Go»?",1.81,0.1,False
+estres,E09,barras,proporcion_truncada,data/imagenes/estres/E09_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Swift» que el de «Go»?",1.81,0.1,False
+estres,E09,barras,res_40,data/imagenes/estres/E09_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",76.0,3.0,False
+estres,E09,barras,res_30,data/imagenes/estres/E09_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Swift»?",76.0,3.0,False
+estres,E10,barras,proporcion_clara,data/imagenes/estres/E10_proporcion_clara.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Ciclismo» que el de «Fútbol»?",1.32,0.1,False
+estres,E10,barras,proporcion_truncada,data/imagenes/estres/E10_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Ciclismo» que el de «Fútbol»?",1.32,0.1,False
+estres,E10,barras,res_40,data/imagenes/estres/E10_res_40.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",37.0,3.0,False
+estres,E10,barras,res_30,data/imagenes/estres/E10_res_30.png,"En el gráfico, ¿qué valor tiene la categoría «Ciclismo»?",37.0,3.0,False
+estres,E11,tabla,res_40,data/imagenes/estres/E11_res_40.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",6442.0,0.0,False
+estres,E11,tabla,res_30,data/imagenes/estres/E11_res_30.png,"En la tabla, ¿qué valor tiene «La Virginia» en la columna «Mar»?",6442.0,0.0,False
+estres,E12,tabla,res_40,data/imagenes/estres/E12_res_40.png,"En la tabla, ¿qué valor tiene «Ruta 7» en la columna «Mié»?",8331.0,0.0,False
+estres,E12,tabla,res_30,data/imagenes/estres/E12_res_30.png,"En la tabla, ¿qué valor tiene «Ruta 7» en la columna «Mié»?",8331.0,0.0,False
+estres,E13,tabla,res_40,data/imagenes/estres/E13_res_40.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",5165.0,0.0,False
+estres,E13,tabla,res_30,data/imagenes/estres/E13_res_30.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",5165.0,0.0,False
+estres,E14,tabla,res_40,data/imagenes/estres/E14_res_40.png,"En la tabla, ¿qué valor tiene «Civil» en la columna «2024»?",8077.0,0.0,False
+estres,E14,tabla,res_30,data/imagenes/estres/E14_res_30.png,"En la tabla, ¿qué valor tiene «Civil» en la columna «2024»?",8077.0,0.0,False
+estres,E15,tabla,res_40,data/imagenes/estres/E15_res_40.png,"En la tabla, ¿qué valor tiene «Occidente» en la columna «Mar»?",3832.0,0.0,False
+estres,E15,tabla,res_30,data/imagenes/estres/E15_res_30.png,"En la tabla, ¿qué valor tiene «Occidente» en la columna «Mar»?",3832.0,0.0,False
+estres,E16,tabla,res_40,data/imagenes/estres/E16_res_40.png,"En la tabla, ¿qué valor tiene «Ruta 3» en la columna «Mié»?",1489.0,0.0,False
+estres,E16,tabla,res_30,data/imagenes/estres/E16_res_30.png,"En la tabla, ¿qué valor tiene «Ruta 3» en la columna «Mié»?",1489.0,0.0,False

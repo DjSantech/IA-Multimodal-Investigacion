@@ -6,7 +6,7 @@ Salida (results/<fase>/):
   resumen_variantes.csv   aciertos/n por tipo y variante (tabla principal)
   resumen.json            cifras clave (para el cuaderno y la exposición)
   acierto_por_variante.png
-y data/etiquetas_fallos.csv (plantilla para clasificar fallos a mano; no se sobrescribe).
+y data/etiquetas_fallos_<fase>.csv si hubo fallos (plantilla para clasificarlos a mano; no se sobrescribe).
 """
 import argparse
 import json
@@ -19,11 +19,14 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 RAIZ = Path(__file__).resolve().parents[1]
-ORDEN = ["clara", "escala", "reordenada", "distractor", "datos_cambiados"]
+ORDEN = ["clara", "escala", "reordenada", "distractor", "baja_resolucion", "datos_cambiados",
+         "proporcion_clara", "proporcion_truncada", "res_40", "res_30"]
 NOMBRES = {"clara": "Clara\n(referencia)", "escala": "Escala /\nformato", "reordenada": "Reordenada",
-           "distractor": "Distractor", "datos_cambiados": "Datos\ncambiados*"}
+           "distractor": "Distractor", "baja_resolucion": "Baja\nresolución", "datos_cambiados": "Datos\ncambiados*",
+           "proporcion_clara": "Proporción\neje desde 0", "proporcion_truncada": "Proporción\neje truncado",
+           "res_40": "Resolución\nmuy baja", "res_30": "Resolución\nextrema"}
 COLOR = {"barras": "#257de0", "tabla": "#f47230"}
-TIPOS_FALLO = "lectura_escala | confusion_categoria | distractor | ocr_digito | formato_numero | sin_numero | otro"
+TIPOS_FALLO = "proporcion_visual | lectura_escala | confusion_categoria | distractor | ocr_digito | formato_numero | sin_numero | otro"
 
 
 def leer_numero(texto, tipo):
@@ -46,12 +49,12 @@ def leer_numero(texto, tipo):
 
 def puntuar(fase):
     refs = pd.read_csv(RAIZ / "data" / "referencias.csv")
-    sal = pd.read_csv(RAIZ / "data" / "salidas.csv")
+    sal = pd.read_csv(RAIZ / "data" / "salidas.csv", dtype={"respuesta_cruda": str})
     sal = sal[(sal.fase == fase) & sal["error"].isna()]
     df = sal.merge(refs[["fase", "familia", "variante", "tipo", "pregunta", "respuesta_ref", "tolerancia",
                          "mismos_datos"]], on=["fase", "familia", "variante"], how="left")
     df["valor_leido"] = [leer_numero(t, tp) for t, tp in zip(df.respuesta_cruda, df.tipo)]
-    df["error_abs"] = (df.valor_leido - df.respuesta_ref).abs()
+    df["error_abs"] = (df.valor_leido - df.respuesta_ref).abs().round(6)  # evita 0.1000000001 > 0.1
     df["acierto"] = df.error_abs <= df.tolerancia
     return df
 
@@ -75,10 +78,10 @@ def metricas_extra(df):
     # Estabilidad: ¿las repeticiones de la misma imagen dan el mismo valor?
     est = df.groupby(["familia", "variante"]).valor_leido.nunique(dropna=False)
     m["estabilidad_entre_repeticiones_pct"] = round(100 * (est == 1).mean(), 1)
-    # Consistencia: en una repetición, ¿acierta las 4 presentaciones con los mismos datos?
+    # Consistencia: en una repetición, ¿acierta TODAS las presentaciones con los mismos datos?
     mis = df[df.mismos_datos == True]
     cons = mis.groupby(["familia", "repeticion"]).acierto.agg(["all", "size"])
-    cons = cons[cons["size"] == 4]
+    cons = cons[cons["size"] == mis.variante.nunique()]
     m["consistencia_familia_pct"] = round(100 * cons["all"].mean(), 1) if len(cons) else None
     # Control: ¿el valor leído cambia en la dirección correcta cuando los datos cambian?
     cla = df[df.variante == "clara"].set_index(["familia", "repeticion"])
@@ -94,34 +97,36 @@ def metricas_extra(df):
     return m
 
 
-def figura(res, ruta):
-    fig, ax = plt.subplots(figsize=(8, 4.2))
+def figura(res, ruta, titulo="Acierto de Gemini por presentación de la misma información", nota=True):
+    orden = [v for v in ORDEN if v in set(res.variante.astype(str))]
+    fig, ax = plt.subplots(figsize=(max(6, 1.5 * len(orden)), 4.2))
     ancho = 0.38
     for k, tipo in enumerate(["barras", "tabla"]):
-        sub = res[res.tipo == tipo].set_index("variante").reindex(ORDEN)
-        xs = [i + (k - 0.5) * ancho for i in range(len(ORDEN))]
+        sub = res[res.tipo == tipo].set_index("variante").reindex(orden)
+        xs = [i + (k - 0.5) * ancho for i in range(len(orden))]
         barras = ax.bar(xs, sub.pct_acierto, width=ancho - 0.03, color=COLOR[tipo],
                         label="Gráfico de barras" if tipo == "barras" else "Tabla", zorder=3)
         for b, (a, n) in zip(barras, zip(sub.aciertos, sub.n)):
             if pd.notna(n):
                 ax.text(b.get_x() + b.get_width() / 2, b.get_height() + 1.5, f"{int(a)}/{int(n)}",
                         ha="center", fontsize=8, color="#333333")
-    ax.set_xticks(range(len(ORDEN)), [NOMBRES[v] for v in ORDEN], fontsize=9)
+    ax.set_xticks(range(len(orden)), [NOMBRES[v] for v in orden], fontsize=9)
     ax.set_ylim(0, 110)
     ax.set_ylabel("Acierto (%)")
-    ax.set_title("Acierto de Gemini por presentación de la misma información", loc="left", fontsize=11, pad=22)
+    ax.set_title(titulo, loc="left", fontsize=11, pad=22)
     ax.grid(axis="y", color="#e0e0e0", zorder=0)
     ax.spines[["top", "right"]].set_visible(False)
     ax.legend(frameon=False, loc="lower right", bbox_to_anchor=(1, 0.99), ncol=2, fontsize=9)
-    fig.text(0.01, -0.02, "*Control: el valor preguntado sí cambia; la respuesta correcta se recalculó.",
-             fontsize=8, color="#555555")
+    if nota:
+        fig.text(0.01, -0.02, "*Control: el valor preguntado sí cambia; la respuesta correcta se recalculó.",
+                 fontsize=8, color="#555555")
     fig.savefig(ruta, dpi=130, bbox_inches="tight", facecolor="white")
     plt.close(fig)
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--fase", choices=["piloto", "final"], default="final")
+    ap.add_argument("--fase", choices=["piloto", "final", "estres"], default="final")
     args = ap.parse_args()
     out = RAIZ / "results" / args.fase
     out.mkdir(parents=True, exist_ok=True)
@@ -135,10 +140,13 @@ def main():
     m = metricas_extra(df)
     m["acierto_por_variante"] = {f"{r.tipo}/{r.variante}": f"{r.aciertos}/{r.n}" for r in res.itertuples()}
     (out / "resumen.json").write_text(json.dumps(m, ensure_ascii=False, indent=2), encoding="utf-8")
-    figura(res, out / "acierto_por_variante.png")
+    if args.fase == "estres":
+        figura(res, out / "acierto_por_variante.png", "Exploración de estrés: ¿dónde empieza a fallar?", nota=False)
+    else:
+        figura(res, out / "acierto_por_variante.png")
 
-    if args.fase == "final":
-        etiq = RAIZ / "data" / "etiquetas_fallos.csv"
+    if args.fase in ("final", "estres") and (~df.acierto).any():
+        etiq = RAIZ / "data" / f"etiquetas_fallos_{args.fase}.csv"
         if not etiq.exists():
             f = df[~df.acierto][["familia", "tipo", "variante", "repeticion", "archivo", "pregunta",
                                   "respuesta_ref", "respuesta_cruda"]].copy()

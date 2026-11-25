@@ -11,6 +11,7 @@ Requiere .env con GEMINI_API_KEY (ver .env.example).
 import argparse
 import csv
 import os
+import re
 import time
 from datetime import datetime
 from pathlib import Path
@@ -48,7 +49,7 @@ def anexar(fila: dict):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--fase", choices=["piloto", "final"], required=True)
+    ap.add_argument("--fase", choices=["piloto", "final", "estres"], required=True)
     ap.add_argument("--reps", type=int, default=3)
     ap.add_argument("--pausa", type=float, default=7.0, help="segundos entre consultas (límite por minuto)")
     ap.add_argument("--max", type=int, default=0, help="máximo de consultas en esta ejecución (0 = todas)")
@@ -58,7 +59,7 @@ def main():
     clave = os.getenv("GEMINI_API_KEY")
     if not clave:
         raise SystemExit("Falta GEMINI_API_KEY en .env (copia .env.example como .env y pega tu clave).")
-    modelo = os.getenv("GEMINI_MODEL", "gemini-flash-latest")
+    modelo = os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")
 
     from google import genai
     from google.genai import types
@@ -78,7 +79,7 @@ def main():
         fila = dict(fase=r.fase, familia=r.familia, variante=r.variante, repeticion=rep, archivo=r.archivo,
                     modelo_pedido=modelo, temperatura=TEMPERATURA, fecha=datetime.now().isoformat(timespec="seconds"),
                     modelo_version="", respuesta_cruda="", segundos="", error="")
-        for intento in range(4):
+        for intento in range(8):
             try:
                 t0 = time.perf_counter()
                 resp = cliente.models.generate_content(
@@ -94,11 +95,20 @@ def main():
                 break
             except Exception as e:  # límite de cuota u otro fallo: esperar y reintentar
                 fila["error"] = f"{type(e).__name__}: {str(e)[:150]}"
-                espera = 30 * (2 ** intento)
+                espera = min(30 * (2 ** intento), 120)
+                codigo = getattr(e, "code", None)
+                if codigo in (400, 401, 403, 404):  # clave o modelo inválidos: reintentar no sirve
+                    raise SystemExit(f"Error no recuperable: {fila['error']}")
+                if codigo == 429:  # cuota: ¿por minuto o por día?
+                    cuotas = re.findall(r"quotaId'?\s*:\s*'([^']+)'", str(e))
+                    fila["error"] = f"429 cuota {cuotas}"
+                    if any("PerDay" in q for q in cuotas):
+                        anexar(fila)
+                        raise SystemExit(f"Límite DIARIO alcanzado ({cuotas}). Ejecuta de nuevo mañana: "
+                                         "el script continúa donde quedó.")
+                    m = re.search(r"retryDelay'?\s*:\s*'(\d+)", str(e))
+                    espera = int(m.group(1)) + 5 if m else 65
                 print(f"  ! {r.familia}_{r.variante} rep{rep}: {fila['error']} -> espero {espera}s")
-                if "PerDay" in str(e) or "per day" in str(e).lower():
-                    anexar(fila)
-                    raise SystemExit("Límite diario alcanzado. Vuelve a ejecutar mañana: el script continúa donde quedó.")
                 time.sleep(espera)
         anexar(fila)
         print(f"[{i}/{len(pendientes)}] {r.familia}_{r.variante} rep{rep} -> {fila['respuesta_cruda']!r} "

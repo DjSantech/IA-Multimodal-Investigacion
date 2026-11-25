@@ -2,16 +2,18 @@
 
 Proyecto de investigación del curso de Inteligencia Artificial (Tema 07: IA multimodal).
 
-**Pregunta:** ¿un modelo multimodal (Gemini) lee correctamente valores de gráficos de barras y tablas, y mantiene la lectura cuando solo cambia la presentación (eje truncado, orden, distractores)?
+**Pregunta:** ¿un modelo multimodal (Gemini 3.5 Flash-Lite) lee correctamente valores de gráficos de barras y tablas, y mantiene la lectura cuando solo cambia la presentación (eje truncado, orden, distractores)?
 
 **Entregable:** [`IA_Investigacion_GrupoXX_Tema07.ipynb`](IA_Investigacion_GrupoXX_Tema07.ipynb)
 
 ## Estructura
 ```
-src/generar_dataset.py    crea 130 imágenes con datos conocidos + data/referencias.csv
+src/generar_dataset.py    crea 208 imágenes con datos conocidos + data/referencias.csv
 src/consultar_modelo.py   consulta a Gemini y guarda todas las salidas (reanudable)
 src/evaluar.py            puntúa, tablas y figura en results/<fase>/
-data/imagenes/            piloto/ (6 familias) y final/ (20 familias × 5 variantes)
+data/imagenes/            piloto/ (6 familias), final/ (20 familias × 6 variantes), estres/ (exploración)
+data/salidas.csv          todas las respuestas del modelo (con fecha y versión)
+data/piloto_v1/           evidencias del piloto v1 (antes de ajustar el protocolo)
 docs/                     fuentes candidatas y tareas
 ```
 
@@ -24,6 +26,8 @@ python src/consultar_modelo.py --fase piloto --reps 1
 python src/evaluar.py --fase piloto
 python src/consultar_modelo.py --fase final --reps 3
 python src/evaluar.py --fase final
+python src/consultar_modelo.py --fase estres --reps 3
+python src/evaluar.py --fase estres
 ```
 La clave **nunca** se sube: `.env` está en `.gitignore`.
 

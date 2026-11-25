@@ -1,0 +1,13 @@
+tipo,variante,aciertos,n,familias,error_abs_medio,sin_numero,pct_acierto
+barras,clara,36,36,12,0.0,0,100.0
+barras,escala,36,36,12,0.0,0,100.0
+barras,reordenada,36,36,12,0.0,0,100.0
+barras,distractor,36,36,12,0.0,0,100.0
+barras,baja_resolucion,36,36,12,0.0,0,100.0
+barras,datos_cambiados,36,36,12,0.0,0,100.0
+tabla,clara,24,24,8,0.0,0,100.0
+tabla,escala,24,24,8,0.0,0,100.0
+tabla,reordenada,24,24,8,0.0,0,100.0
+tabla,distractor,24,24,8,0.0,0,100.0
+tabla,baja_resolucion,24,24,8,0.0,0,100.0
+tabla,datos_cambiados,24,24,8,0.0,0,100.0
