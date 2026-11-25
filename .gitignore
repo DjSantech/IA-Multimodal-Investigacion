@@ -1,0 +1,20 @@
+# Secretos
+.env
+
+# Material local que NO se sube (guías de estudio / presentación)
+guias_locales/
+
+# Enunciado original del docente
+Proyecto_Investigacion_IA_4_Semanas.ipynb
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
