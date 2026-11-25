@@ -1,17 +1,17 @@
 {
-  "estabilidad_entre_repeticiones_pct": 100.0,
+  "estabilidad_entre_repeticiones_pct": 98.1,
   "consistencia_familia_pct": null,
-  "tiempo_medio_s": 3.2,
-  "n_consultas": 51,
+  "tiempo_medio_s": 3.07,
+  "n_consultas": 55,
   "modelo_version": [
     "gemini-3.5-flash-lite"
   ],
   "acierto_por_variante": {
-    "barras/proporcion_clara": "10/10",
-    "barras/proporcion_truncada": "9/10",
-    "barras/res_40": "10/10",
+    "barras/proporcion_clara": "11/11",
+    "barras/proporcion_truncada": "10/11",
+    "barras/res_40": "11/11",
     "barras/res_30": "10/10",
     "tabla/res_40": "6/6",
-    "tabla/res_30": "2/5"
+    "tabla/res_30": "2/6"
   }
 }

@@ -1,0 +1,15 @@
+familia,tipo,variante,repeticion,archivo,pregunta,respuesta_ref,respuesta_cruda,tipo_fallo,nota
+E06,barras,proporcion_truncada,1,data/imagenes/estres/E06_proporcion_truncada.png,"En el gráfico, ¿cuántas veces es mayor el valor de «Derecho» que el de «Música»?",1.25,"Para responder a tu pregunta, primero obtenemos los valores aproximados de cada barra a partir del eje vertical (que comienza en 40):
+
+* **Derecho**: aproximadamente 84
+* **Música**: aproximadamente 67
+
+Para saber cuántas veces es mayor el valor de «Derecho» que el de «Música», dividimos ambos valores:
+
+84 / 67 ≈ 1.25
+
+1.25",,
+E13,tabla,res_30,1,data/imagenes/estres/E13_res_30.png,"En la tabla, ¿qué valor tiene «Planta A» en la columna «T3»?",5165.0,3108,,
+E14,tabla,res_30,1,data/imagenes/estres/E14_res_30.png,"En la tabla, ¿qué valor tiene «Civil» en la columna «2024»?",8077.0,6077,,
+E15,tabla,res_30,1,data/imagenes/estres/E15_res_30.png,"En la tabla, ¿qué valor tiene «Occidente» en la columna «Mar»?",3832.0,3653,,
+E16,tabla,res_30,1,data/imagenes/estres/E16_res_30.png,"En la tabla, ¿qué valor tiene «Ruta 3» en la columna «Mié»?",1489.0,2483,,

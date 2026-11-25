@@ -1,7 +1,7 @@
 tipo,variante,aciertos,n,familias,error_abs_medio,sin_numero,pct_acierto
-barras,proporcion_clara,10,10,10,0.02,0,100.0
-barras,proporcion_truncada,9,10,10,3.89,0,90.0
-barras,res_40,10,10,10,0.2,0,100.0
+barras,proporcion_clara,11,11,10,0.02,0,100.0
+barras,proporcion_truncada,10,11,10,3.54,0,90.9
+barras,res_40,11,11,10,0.18,0,100.0
 barras,res_30,10,10,10,0.4,0,100.0
 tabla,res_40,6,6,6,0.0,0,100.0
-tabla,res_30,2,5,5,847.2,0,40.0
+tabla,res_30,2,6,6,871.67,0,33.3

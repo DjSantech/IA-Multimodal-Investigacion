@@ -456,3 +456,8 @@ estres,E15,res_40,1,data/imagenes/estres/E15_res_40.png,gemini-3.5-flash-lite,ge
 estres,E15,res_30,1,data/imagenes/estres/E15_res_30.png,gemini-3.5-flash-lite,gemini-3.5-flash-lite,1.0,3653,1.41,2026-11-25T14:00:48,
 estres,E16,res_40,1,data/imagenes/estres/E16_res_40.png,gemini-3.5-flash-lite,gemini-3.5-flash-lite,1.0,1489,1.01,2026-11-25T14:00:53,
 estres,E16,res_30,1,data/imagenes/estres/E16_res_30.png,gemini-3.5-flash-lite,,1.0,,,2026-11-25T14:00:58,429 cuota ['GenerateRequestsPerDayPerProjectPerModel-FreeTier']
+estres,E16,res_30,1,data/imagenes/estres/E16_res_30.png,gemini-3.5-flash-lite,gemini-3.5-flash-lite,1.0,2483,1.05,2026-11-25T14:46:48,
+estres,E01,proporcion_clara,2,data/imagenes/estres/E01_proporcion_clara.png,gemini-3.5-flash-lite,gemini-3.5-flash-lite,1.0,2,1.34,2026-11-25T14:46:55,
+estres,E01,proporcion_truncada,2,data/imagenes/estres/E01_proporcion_truncada.png,gemini-3.5-flash-lite,gemini-3.5-flash-lite,1.0,2.075,0.79,2026-11-25T14:47:01,
+estres,E01,res_40,2,data/imagenes/estres/E01_res_40.png,gemini-3.5-flash-lite,gemini-3.5-flash-lite,1.0,85,2.91,2026-11-25T14:47:05,
+estres,E01,res_30,2,data/imagenes/estres/E01_res_30.png,gemini-3.5-flash-lite,,1.0,,,2026-11-25T14:47:12,429 cuota ['GenerateRequestsPerDayPerProjectPerModel-FreeTier']
