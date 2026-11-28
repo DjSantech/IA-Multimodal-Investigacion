@@ -54,4 +54,4 @@ Tareas: [docs/TAREAS_JANUAR.md](docs/TAREAS_JANUAR.md)
 | Exposición: método, resultados, demostración | Exposición: problema, fundamentos, conclusión |
 
 ## Uso de IA
-Usamos Claude (Anthropic) como asistente para el diseño del protocolo, el código y borradores de redacción; todo fue revisado y ejecutado por nosotros. Gemini es el **objeto de estudio**. Detalle en la sección H del cuaderno.
+Usamos Claude (Anthropic) como asistente para el diseño del protocolo, el código y borradores de redacción, asi como Gemini Notebook (antes Notebook LM) como ayuda para analisis de fuentes y borradores de redacción; todo fue revisado y ejecutado por nosotros. Gemini es el **objeto de estudio**. Detalle en la sección H del cuaderno.
